@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Password Validator</title>
+</head>
+<body>
+    <p>Password Validator</p>
+    <div class="container">
+        <div class="form-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="pwd"></br>
+                        <label for="password">Retype Password</label>
+                        <input type="password" class="form-control" id="validated">
+                        </br>
+                        <div id="buttonHolder">
+                            <button id="btn_s" onclick="validate()">Validate</button>
+                        </div>
+                        <span id = "message" style="color:red"> </span> <br><br>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

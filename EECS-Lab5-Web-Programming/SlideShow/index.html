@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Slide Show</title>
+</head>
+<body>
+    <p>Press either button to begin. Hover for color</p>
+    <div class="container">
+        <div class="slides">
+          <div class="numbertext">1 / 5</div>
+            <img src="Gorge.jpeg">
+        </div>
+
+        <div class="slides">
+          <div class="numbertext">2 / 5</div>
+            <img src="Sunset.jpeg">
+        </div>
+      
+        <div class="slides">
+          <div class="numbertext">3 / 5</div>
+            <img src="trees.jpeg">
+        </div>
+      
+        <div class="slides">
+          <div class="numbertext">4 / 5</div>
+            <img src="Mountains.jpeg">
+        </div>
+      
+        <div class="slides">
+          <div class="numbertext">5 / 5</div>
+            <img src="waterfall.jpeg">
+        </div>
+      
+        <div class="container">
+          <p id="caption"></p>
+        </div>
+        <button id="btn_left" onclick="plusSlides(-1)">Previous</button>
+        <button id="btn_right" onclick="plusSlides(1)">Next</button>
+      </div>
+</body>
+</html>

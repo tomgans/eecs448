@@ -1,0 +1,53 @@
+/* Background */
+body {
+    background: linear-gradient(to left top, blue, red);
+    background-attachment: fixed;
+}
+/* Title of Page */
+p{
+    margin-top: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: large;
+    margin-bottom: 200px;
+}
+.form-container {
+    color: antiquewhite
+}
+
+label {
+    margin-top: 15px;
+    display: inline-block;
+    width: 635px;
+    text-align: right;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#btn_s{
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#btn_s:hover{
+    width: 153px;
+    background-color:antiquewhite;
+}
+#buttonHolder{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 515px;
+    text-align: center;
+}
+.form-control{
+    border-color: black;
+}
+#message{
+    text-align: center;
+    margin-left: 640px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
