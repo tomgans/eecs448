@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="formChecker.js"></script>
+    <title>Web Store</title>
+</head>
+<body>
+    <form id="container" onsubmit="formCheck()" action="customerBackend.php" method="post">
+        <div id = "header">
+            Username: <input type="text" name="username" id="username"><br><b></b><br>
+            Password: <input type="password" name="password" id="password"><br><br>
+        </div>
+        <input type="radio" name="item1" value="25" id = "item1">Item 1: T-Shirt <span>$25</span><br><br>
+        Amount: <input type="text" name="amount1" id="amount1"><br>
+        <input type="radio" name="item2" value="35" id = "item2">Item 2: Pants <span>$35</span><br><br>
+        Amount: <input type="text" name="amount2" id="amount2"><br>
+        <input type="radio" name="item3" value="35" id = "item3">Item 3: Shoes <span>$75</span><br><br>
+        Amount: <input type="text" name="amount3" id="amount3"><br><br><br>
+        Shipping: <br><br>
+        <div id="shippingContainer">
+            <input type="radio" name="shipping" value="Free" id = "shipping">Free</input><br><br>
+            <input type="radio" name="shipping" value="3 Day" id = "shipping">3 Day: $5.00</input><br><br>
+            <input type="radio" name="shipping" value="Over Night" id = "shipping">Over Night: $50.00</input><br><br>
+        </div>
+        <button type="submit" name="submit">Submit</button>
+        <button type="reset" name="reset">Reset</button>
+    </form>
+</body>
+</html>
